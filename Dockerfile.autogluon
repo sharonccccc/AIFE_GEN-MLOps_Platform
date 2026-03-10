@@ -1,0 +1,9 @@
+FROM shawoo/sagemaker:3.8-gpu
+
+RUN pip install setuptools==68.2.2
+RUN pip install temporalio
+
+COPY Multimodal.ipynb            /home/sagemaker-user/
+COPY Tabular.ipynb               /home/sagemaker-user/
+COPY diamonds.csv                /home/sagemaker-user/
+COPY TimeSeries.ipynb            /home/sagemaker-user/
