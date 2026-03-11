@@ -36,6 +36,15 @@ Related documents:
 [autogluon.multimodal](./docs/autogluon.multimodal)
 
 ---
+## Dataset
+This project uses multiple publicly available machine learning datasets to demonstrate AutoML workflows and the application of different types of AI tasks.
+
+Example datasets include:
+- AutoGluon official example datasets (GitHub)
+- M4 time series forecasting dataset (M4 Forecasting Competition)
+- Other commonly used open-source machine learning datasets
+
+---
 
 ## Technology Stack
 
