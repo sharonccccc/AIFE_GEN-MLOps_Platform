@@ -29,13 +29,21 @@ This repository demonstrates AI / Machine Learning workflows using AutoGluon Aut
 - Jupyter Notebook  
 - Docker GPU 運行環境
 
+技術清單：
+- AutoML 框架：AutoGluon、PyCaret
+- 機器學習演算法：XGBoost、LightGBM、CatBoost、Random Forest
+- 數據處理：Pandas、NumPy
+- 模型解釋：SHAP、Plotly
+- MLOps：MLflow、Evidently AI
+- 部署架構：Docker、FastAPI
+
 補充使用技術與環境說明
 - 可作為 AI 模型訓練、測試與能力培養之實作平台
 - worker節點算力共享給企業用戶
 - 接入算力調度系統，提供算力節點
 - 模型部署
 - 數據和模型漂移監測
-- 
+  
 
 # 啟動 AI 環境
 docker run -it --name autogluon -d  --shm-size=16g  --gpus all \
